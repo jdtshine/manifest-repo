@@ -4,6 +4,9 @@ images:
 - name: ${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/myapp-repo
   newName: ${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/myapp-repo
   newTag: aa68ef2e
+- name: 111868661773.dkr.ecr.us-west-2.amazonaws.com/myapp-repo
+  newName: 111868661773.dkr.ecr.us-west-2.amazonaws.com/myapp-repo
+  newTag: 7180f9f2
 resources:
 - ../../base
 patchesStrategicMerge:
