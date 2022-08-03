@@ -9,4 +9,3 @@ metadata:
 spec:
   selector:
     app: myapp
-
