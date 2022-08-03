@@ -1,4 +1,3 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -16,7 +15,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: 111868661773.dkr.ecr.us-west-2.amazonaws.com/myapp-repo:latest
+          image: ${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/myapp-repo:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80
