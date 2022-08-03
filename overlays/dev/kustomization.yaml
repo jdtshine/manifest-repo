@@ -6,7 +6,7 @@ images:
   newTag: aa68ef2e
 - name: 111868661773.dkr.ecr.us-west-2.amazonaws.com/myapp-repo
   newName: 111868661773.dkr.ecr.us-west-2.amazonaws.com/myapp-repo
-  newTag: 7180f9f2
+  newTag: 1de9e520
 resources:
 - ../../base
 patchesStrategicMerge:
